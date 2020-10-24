@@ -26,14 +26,14 @@ public class RpcRequest implements Serializable {
     private String methodName;
 
     /**
-     * 参数
-     */
-    private Object[] params;
-
-    /**
      * 参数类型
      */
     private Class[] types;
+
+    /**
+     * 参数
+     */
+    private Object[] params;
 
 
 }

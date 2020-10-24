@@ -1,4 +1,4 @@
-package com.hanyinh.rpc.server;
+package com.hanyinh.rpc.server.socket;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.concurrent.CustomizableThreadFactory;
@@ -11,13 +11,13 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * TODO
+ * Socket的方式实现
  *
  * @author Hanyinh
  * @date 2020/9/20 22:16
  */
 @Slf4j
-public class NettyServer {
+public class SocketServer {
 
     private static final String IP = "127.0.0.1";
 
